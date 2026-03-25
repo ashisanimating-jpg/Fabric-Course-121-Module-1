@@ -15,16 +15,25 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 public class ModBlocks {
     public static final Block FLOURITE_BLOCK = registerBlock("flourite_block",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.AMETHYST_BLOCK)
-                    .strength(3f).requiresTool()));
+                    .strength(4f).requiresTool()));
 
     public static final Block FLOURITE_ORE = registerBlock("flourite_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 4),
-                    AbstractBlock.Settings.create().strength(2f).requiresTool()));
+                    AbstractBlock.Settings.create().strength(4f).requiresTool()));
 
     public static final Block FLOURITE_DEEPSLATE_ORE = registerBlock("flourite_deepslate_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
                     AbstractBlock.Settings.create().sounds(BlockSoundGroup.DEEPSLATE)
-                            .strength(4f).requiresTool()));
+                            .strength(6f).requiresTool()));
+
+    public static final Block FLOURITE_NETHER_ORE = registerBlock("flourite_nether_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
+                    AbstractBlock.Settings.create().sounds(BlockSoundGroup.NETHER_GOLD_ORE)
+                            .strength(2f).requiresTool()));
+
+    public static final Block FLOURITE_END_ORE = registerBlock("flourite_end_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
+                    AbstractBlock.Settings.create().strength(4f).requiresTool()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

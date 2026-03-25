@@ -27,6 +27,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FLOURITE_BLOCK);
                         entries.add(ModBlocks.FLOURITE_ORE);
                         entries.add(ModBlocks.FLOURITE_DEEPSLATE_ORE);
+                        entries.add(ModBlocks.FLOURITE_NETHER_ORE);
+                        entries.add(ModBlocks.FLOURITE_END_ORE);
 
 
                     }).build());
