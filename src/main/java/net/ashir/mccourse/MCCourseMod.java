@@ -1,7 +1,8 @@
 package net.ashir.mccourse;
 
-import net.ashir.mccourse.items.ModItemGroups;
-import net.ashir.mccourse.items.ModItems;
+import net.ashir.mccourse.block.ModBlocks;
+import net.ashir.mccourse.item.ModItemGroups;
+import net.ashir.mccourse.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -15,6 +16,7 @@ public class MCCourseMod implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
+		ModBlocks.registerModBlocks();
 
 	}
 }
