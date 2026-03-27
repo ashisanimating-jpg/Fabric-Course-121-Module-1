@@ -1,6 +1,7 @@
 package net.ashir.mccourse.block;
 
 import net.ashir.mccourse.MCCourseMod;
+import net.ashir.mccourse.block.custom.MagicBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.ExperienceDroppingBlock;
@@ -34,6 +35,9 @@ public class ModBlocks {
     public static final Block FLOURITE_END_ORE = registerBlock("flourite_end_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
                     AbstractBlock.Settings.create().strength(4f).requiresTool()));
+
+    public static final Block MAGIC_BLOCK = registerBlock("magic_block",
+            new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

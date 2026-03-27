@@ -18,6 +18,8 @@ public class ModItemGroups {
                         entries.add(ModItems.FLOURITE);
                         entries.add(ModItems.RAW_FLOURITE);
 
+                        entries.add(ModItems.CHAINSAW);
+
                     }).build());
 
     public static final ItemGroup FLOURITE_BLOCKS = Registry.register(Registries.ITEM_GROUP,
@@ -29,6 +31,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FLOURITE_DEEPSLATE_ORE);
                         entries.add(ModBlocks.FLOURITE_NETHER_ORE);
                         entries.add(ModBlocks.FLOURITE_END_ORE);
+
+                        entries.add(ModBlocks.MAGIC_BLOCK);
 
 
                     }).build());
