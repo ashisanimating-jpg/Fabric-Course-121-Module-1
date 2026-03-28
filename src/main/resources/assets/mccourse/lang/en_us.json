@@ -2,6 +2,8 @@
   "item.mccourse.flourite": "Flourite",
   "item.mccourse.raw_flourite": "Raw Flourite",
   "item.mccourse.chainsaw": "Chainsaw",
+  "item.mccourse.strawberry": "Strawberry",
+  "item.mccourse.starlight_ashes": "Starlight Ashes",
 
   "itemgroup.flourite": "Flourite Items",
   "itemgroup.flourite_blocks": "Flourite Blocks",
@@ -13,5 +15,13 @@
   "block.mccourse.flourite_deepslate_ore": "Deepslate Flourite Ore",
 
 
-  "block.mccourse.magic_block": "Magic Block"
+  "block.mccourse.magic_block": "Magic Block",
+
+  "tooltip.mccourse.chainsaw.tooltip.shift": "Press §eShift§r for more information",
+  "tooltip.mccourse.chainsaw.tooltip.1": "This Chainsaw will cut down tress fast",
+  "tooltip.mccourse.chainsaw.tooltip.2": "§oChainsaw go vroom!§r",
+
+  "tooltip.mccourse.magic_block.tooltip.1": "This block is §bMagical§r!",
+  "tooltip.mccourse.strawberry.tooltip.1": "§cTastes great!§r",
+  "tooltip.mccourse.starlight_ashes.tooltip.1": "This substance has fallen from the §kiiiiiiSr"
 }
