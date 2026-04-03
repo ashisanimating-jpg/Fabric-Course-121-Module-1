@@ -9,6 +9,11 @@ import net.minecraft.util.Identifier;
 
 public class ModTags {
     public static class Blocks {
+        public static final TagKey<Block> NEEDS_FLOURITE_TOOL = createTag("needs_flourite_tool");
+        public static final TagKey<Block> INCORRECT_FOR_FLOURITE_TOOL = createTag("incorrect_for_flourite_tool");
+
+        public static final TagKey<Block> PAXEL_MINEABLE = createTag("paxel_mineable");
+
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(MCCourseMod.MOD_ID, name));
         }

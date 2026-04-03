@@ -9,6 +9,19 @@
   "itemgroup.flourite_blocks": "Flourite Blocks",
 
   "block.mccourse.flourite_block": "Flourite Block",
+  "block.mccourse.flourite_stairs": "Flourite Stairs",
+  "block.mccourse.flourite_slab": "Flourite Slab",
+  "block.mccourse.flourite_button": "Flourite Button",
+  "block.mccourse.flourite_pressure_plate": "Flourite Pressure Plate",
+
+  "block.mccourse.flourite_fence": "Flourite Fence",
+  "block.mccourse.flourite_fence_gate": "Flourite Fence Gate",
+  "block.mccourse.flourite_wall": "Flourite Wall",
+
+  "block.mccourse.flourite_door": "Flourite Door",
+  "block.mccourse.flourite_trapdoor": "Flourite Trapdoor",
+
+
   "block.mccourse.flourite_ore": "Flourite Ore",
   "block.mccourse.flourite_nether_ore": "Nether Flourite Ore",
   "block.mccourse.flourite_end_ore": "Flourite End Ore",
@@ -23,5 +36,13 @@
 
   "tooltip.mccourse.magic_block.tooltip.1": "This block is §bMagical§r!",
   "tooltip.mccourse.strawberry.tooltip.1": "§cTastes great!§r",
-  "tooltip.mccourse.starlight_ashes.tooltip.1": "This substance has fallen from the §kiiiiiiSr"
+  "tooltip.mccourse.starlight_ashes.tooltip.1": "This substance has fallen from the §kiiiiiiSr",
+
+  "item.mccourse.flourite_sword": "Flourite Sword",
+  "item.mccourse.flourite_pickaxe": "Flourite Pickaxe",
+  "item.mccourse.flourite_shovel": "Flourite Shovel",
+  "item.mccourse.flourite_axe": "Flourite Axe",
+  "item.mccourse.flourite_hoe": "Flourite Hoe",
+  "item.mccourse.flourite_paxel": "Flourite Paxel",
+  "item.mccourse.flourite_hammer": "Flourite Hammer"
 }

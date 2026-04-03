@@ -3,8 +3,10 @@ package net.ashir.mccourse;
 import net.ashir.mccourse.block.ModBlocks;
 import net.ashir.mccourse.item.ModItemGroups;
 import net.ashir.mccourse.item.ModItems;
+import net.ashir.mccourse.util.HammerUsageEvent;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,5 +23,6 @@ public class MCCourseMod implements ModInitializer {
 
 		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600);
 
+		PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());
 	}
 }

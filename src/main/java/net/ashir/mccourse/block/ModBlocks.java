@@ -2,9 +2,7 @@ package net.ashir.mccourse.block;
 
 import net.ashir.mccourse.MCCourseMod;
 import net.ashir.mccourse.block.custom.MagicBlock;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.ExperienceDroppingBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -38,6 +36,34 @@ public class ModBlocks {
 
     public static final Block MAGIC_BLOCK = registerBlock("magic_block",
             new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
+
+    public static final Block FLOURITE_STAIRS = registerBlock("flourite_stairs",
+            new StairsBlock(ModBlocks.FLOURITE_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()));
+
+    public static final Block FLOURITE_SLAB = registerBlock("flourite_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+
+    public static final Block FLOURITE_BUTTON = registerBlock("flourite_button",
+            new ButtonBlock(BlockSetType.IRON, 10, AbstractBlock.Settings.create().requiresTool()));
+
+    public static final Block FLOURITE_PRESSURE_PLATE = registerBlock("flourite_pressure_plate",
+            new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().requiresTool()));
+
+    public static final Block FLOURITE_FENCE = registerBlock("flourite_fence",
+            new FenceBlock(AbstractBlock.Settings.create().requiresTool()));
+
+    public static final Block FLOURITE_FENCE_GATE = registerBlock("flourite_fence_gate",
+            new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().requiresTool()));
+
+    public static final Block FLOURITE_WALL = registerBlock("flourite_wall",
+            new WallBlock(AbstractBlock.Settings.create().requiresTool()));
+
+    public static final Block FLOURITE_DOOR = registerBlock("flourite_door",
+            new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().requiresTool().nonOpaque()));
+
+    public static final Block FLOURITE_TRAPDOOR = registerBlock("flourite_trapdoor",
+            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().requiresTool().nonOpaque()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

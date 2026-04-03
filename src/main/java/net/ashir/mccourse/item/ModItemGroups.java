@@ -23,6 +23,14 @@ public class ModItemGroups {
 
                         entries.add(ModItems.STARLIGHT_ASHES);
 
+                        entries.add(ModItems.FLOURITE_SWORD);
+                        entries.add(ModItems.FLOURITE_PICKAXE);
+                        entries.add(ModItems.FLOURITE_SHOVEL);
+                        entries.add(ModItems.FLOURITE_AXE);
+                        entries.add(ModItems.FLOURITE_HOE);
+                        entries.add(ModItems.FLOURITE_PAXEL);
+                        entries.add(ModItems.FLOURITE_HAMMER);
+
                     }).build());
 
     public static final ItemGroup FLOURITE_BLOCKS = Registry.register(Registries.ITEM_GROUP,
@@ -36,6 +44,17 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FLOURITE_END_ORE);
 
                         entries.add(ModBlocks.MAGIC_BLOCK);
+
+                        entries.add(ModBlocks.FLOURITE_SLAB);
+                        entries.add(ModBlocks.FLOURITE_STAIRS);
+                        entries.add(ModBlocks.FLOURITE_BUTTON);
+                        entries.add(ModBlocks.FLOURITE_PRESSURE_PLATE);
+
+                        entries.add(ModBlocks.FLOURITE_FENCE);
+                        entries.add(ModBlocks.FLOURITE_FENCE_GATE);
+                        entries.add(ModBlocks.FLOURITE_DOOR);
+                        entries.add(ModBlocks.FLOURITE_TRAPDOOR);
+                        entries.add(ModBlocks.FLOURITE_WALL);
 
 
                     }).build());
